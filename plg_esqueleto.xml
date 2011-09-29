@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install
+  PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
+<install version="1.5" type="plugin" group="group">
+	<name>Esqueleto de Plugin para Exemplo</name>
+	<creationDate>Dezembro de 2010</creationDate>
+	<author>Carlos Delfino</author>
+	<authorEmail>consultoria@carlosdelfino.eti.br</authorEmail>
+	<authorUrl>www.carlosdelfino.eti.br/plugin</authorUrl>
+	<copyright>GPL 2.0.</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<description>Esqueleto de plugin</description>
+	<files>
+		<filename plugin="esqueleto">esqueleto.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB" >en-GB.plg_esqueleto.ini</language>
+		<language tag="pt-BR" >pt-BR.plg_esqueleto.ini</language>
+	</languages>
+	<params>
+		<param name="other_param" type="text" size="5" default="50"
+			label="Other Param" description="Example of Other Param" />
+	</params>
+</install>
